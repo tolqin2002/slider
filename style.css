@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.slider {
+  width: 800px;
+  height: 600px;
+  margin: 100px auto;
+  position: relative;
+}
+
+.slider__slide {
+  width: 100%;
+  background: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 80px;
+  color: white;
+}
+
+.slider__controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.slider__controls button {
+  padding: 15px;
+}
